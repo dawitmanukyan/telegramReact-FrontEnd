@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.telegrambot-user-data {
+  border: 2px solid #fff;
+  padding: 15px;
+  margin: 5px;
+}
+
+.numberofusers {
+  color: #E35535;
+}
+
+.telegram--icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  background-image: url(../public/telegram.png);
+}
+
+.user-data {
+  color: #26A4E3;
+}
